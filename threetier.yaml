@@ -76,7 +76,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: "mohanraz81/ubs2frontend"
+        image: "nsubbudocker/threetierfe"
         ports:
           - name: http
             containerPort: 80
