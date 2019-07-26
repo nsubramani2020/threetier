@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: "mohanraz81/ubs2backend"
+          image: "nsubbudocker/threetierbe"
           ports:
             - name: http
               containerPort: 80
